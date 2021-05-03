@@ -22,37 +22,37 @@
 	</properties>
     
     <repositories>
-		<repository>
-			<id>maven-egovframework</id>
-			<url>http://192.168.2.119:8081/repository/maven-egovframework-public/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
+        <repository>
+            <id>maven-egovframework</id>
+            <url>http://192.168.2.119:8081/repository/maven-egovframework-public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 	
-	<pluginRepositories>
-	    <pluginRepository>
-	      <id>maven-egovframework</id>
-	      <url>http://192.168.2.119:8081/repository/maven-egovframework-public/</url>
-	    </pluginRepository>
-	</pluginRepositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>maven-egovframework</id>
+            <url>http://192.168.2.119:8081/repository/maven-egovframework-public/</url>
+        </pluginRepository>
+    </pluginRepositories>
 	
-	<distributionManagement>
-		<repository>
-			<id>maven-egovframework</id>
-			<url>http://192.168.2.119:8081/repository/maven-egovframework-releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>maven-egovframework</id>
-			<url>http://192.168.2.119:8081/repository/maven-egovframework-snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
+    <distributionManagement>
+        <repository>
+            <id>maven-egovframework</id>
+            <url>http://192.168.2.119:8081/repository/maven-egovframework-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-egovframework</id>
+            <url>http://192.168.2.119:8081/repository/maven-egovframework-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
-    <!--
+
 	<repositories>
         <repository>
             <id>mvn2s</id>
@@ -85,7 +85,6 @@
             </snapshots>
         </repository>
     </repositories>
-    -->
     
 	<dependencies>
 		<dependency>
