@@ -52,7 +52,7 @@
             </snapshotRepository>
         </distributionManagement>
 
-
+<!--
         <repositories>
             <repository>
                 <id>mvn2s</id>
@@ -85,6 +85,7 @@
                 </snapshots>
             </repository>
         </repositories>
+-->
     
 	<dependencies>
 		<dependency>
