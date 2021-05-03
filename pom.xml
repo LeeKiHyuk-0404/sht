@@ -20,7 +20,39 @@
 		<spring.maven.artifact.version>4.3.25.RELEASE</spring.maven.artifact.version>
 		<egovframework.rte.version>3.10.0</egovframework.rte.version>
 	</properties>
+    
+    <repositories>
+		<repository>
+			<id>maven-egovframework</id>
+			<url>http://192.168.2.119:8081/repository/maven-egovframework-public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	
+	<pluginRepositories>
+	    <pluginRepository>
+	      <id>maven-egovframework</id>
+	      <url>http://192.168.2.119:8081/repository/maven-egovframework-public/</url>
+	    </pluginRepository>
+	</pluginRepositories>
+	
+	<distributionManagement>
+		<repository>
+			<id>maven-egovframework</id>
+			<url>http://192.168.2.119:8081/repository/maven-egovframework-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>maven-egovframework</id>
+			<url>http://192.168.2.119:8081/repository/maven-egovframework-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
+    <!--
 	<repositories>
         <repository>
             <id>mvn2s</id>
@@ -53,7 +85,8 @@
             </snapshots>
         </repository>
     </repositories>
-
+    -->
+    
 	<dependencies>
 		<dependency>
 			<groupId>egovframework.rte</groupId>
