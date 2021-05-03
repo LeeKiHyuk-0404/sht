@@ -21,70 +21,70 @@
 		<egovframework.rte.version>3.10.0</egovframework.rte.version>
 	</properties>
     
-        <repositories>
-            <repository>
-                <id>maven-egovframework</id>
-                <url>http://192.168.2.119:8081/repository/maven-egovframework-public/</url>
-                <releases>
-                    <enabled>true</enabled>
-                </releases>
-                <snapshots>
-                    <enabled>true</enabled>
-                </snapshots>
-            </repository>
-        </repositories>
-        
-        <pluginRepositories>
-            <pluginRepository>
-                <id>maven-egovframework</id>
-                <url>http://192.168.2.119:8081/repository/maven-egovframework-public/</url>
-            </pluginRepository>
-        </pluginRepositories>
-        
-        <distributionManagement>
-            <repository>
-                <id>maven-egovframework</id>
-                <url>http://192.168.2.119:8081/repository/maven-egovframework-releases/</url>
-            </repository>
-            <snapshotRepository>
-                <id>maven-egovframework</id>
-                <url>http://192.168.2.119:8081/repository/maven-egovframework-snapshots/</url>
-            </snapshotRepository>
-        </distributionManagement>
+    <repositories>
+        <repository>
+            <id>maven-egovframework</id>
+            <url>http://192.168.2.119:8081/repository/maven-egovframework-public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    
+    <pluginRepositories>
+        <pluginRepository>
+            <id>maven-egovframework</id>
+            <url>http://192.168.2.119:8081/repository/maven-egovframework-public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+    
+    <distributionManagement>
+        <repository>
+            <id>maven-egovframework</id>
+            <url>http://192.168.2.119:8081/repository/maven-egovframework-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-egovframework</id>
+            <url>http://192.168.2.119:8081/repository/maven-egovframework-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 <!--
-        <repositories>
-            <repository>
-                <id>mvn2s</id>
-                <url>https://repo1.maven.org/maven2/</url>
-                <releases>
-                    <enabled>true</enabled>
-                </releases>
-                <snapshots>
-                    <enabled>true</enabled>
-                </snapshots>
-            </repository>
-            <repository>
-                <id>egovframe</id>
-                <url>http://maven.egovframe.kr:8080/maven/</url>
-                <releases>
-                    <enabled>true</enabled>
-                </releases>
-                <snapshots>
-                    <enabled>false</enabled>
-                </snapshots>
-            </repository>
-            <repository>
-                <id>egovframe2</id>
-                <url>http://www.egovframe.go.kr/maven/</url>
-                <releases>
-                    <enabled>true</enabled>
-                </releases>
-                <snapshots>
-                    <enabled>false</enabled>
-                </snapshots>
-            </repository>
-        </repositories>
+    <repositories>
+        <repository>
+            <id>mvn2s</id>
+            <url>https://repo1.maven.org/maven2/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>egovframe</id>
+            <url>http://maven.egovframe.kr:8080/maven/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>egovframe2</id>
+            <url>http://www.egovframe.go.kr/maven/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 -->
     
 	<dependencies>
